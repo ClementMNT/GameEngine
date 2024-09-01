@@ -1,0 +1,1 @@
+. "/Users/clementmontoya/Documents/R-TYPE/B-CPP-500-MAR-5-1-rtype-theo.liennard/build/conanbuildenv-release-armv8.sh"

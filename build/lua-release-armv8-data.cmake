@@ -1,0 +1,46 @@
+########### AGGREGATED COMPONENTS AND DEPENDENCIES FOR THE MULTI CONFIG #####################
+#############################################################################################
+
+set(lua_COMPONENT_NAMES "")
+set(lua_FIND_DEPENDENCY_NAMES "")
+
+########### VARIABLES #######################################################################
+#############################################################################################
+set(lua_PACKAGE_FOLDER_RELEASE "/Users/clementmontoya/.conan2/p/b/lua208d0437a9df3/p")
+set(lua_BUILD_MODULES_PATHS_RELEASE )
+
+
+set(lua_INCLUDE_DIRS_RELEASE "${lua_PACKAGE_FOLDER_RELEASE}/include")
+set(lua_RES_DIRS_RELEASE )
+set(lua_DEFINITIONS_RELEASE "-DLUA_USE_DLOPEN"
+			"-DLUA_USE_POSIX")
+set(lua_SHARED_LINK_FLAGS_RELEASE )
+set(lua_EXE_LINK_FLAGS_RELEASE )
+set(lua_OBJECTS_RELEASE )
+set(lua_COMPILE_DEFINITIONS_RELEASE "LUA_USE_DLOPEN"
+			"LUA_USE_POSIX")
+set(lua_COMPILE_OPTIONS_C_RELEASE )
+set(lua_COMPILE_OPTIONS_CXX_RELEASE )
+set(lua_LIB_DIRS_RELEASE "${lua_PACKAGE_FOLDER_RELEASE}/lib")
+set(lua_BIN_DIRS_RELEASE )
+set(lua_LIBRARY_TYPE_RELEASE STATIC)
+set(lua_IS_HOST_WINDOWS_RELEASE 0)
+set(lua_LIBS_RELEASE lua)
+set(lua_SYSTEM_LIBS_RELEASE )
+set(lua_FRAMEWORK_DIRS_RELEASE )
+set(lua_FRAMEWORKS_RELEASE )
+set(lua_BUILD_DIRS_RELEASE )
+set(lua_NO_SONAME_MODE_RELEASE FALSE)
+
+
+# COMPOUND VARIABLES
+set(lua_COMPILE_OPTIONS_RELEASE
+    "$<$<COMPILE_LANGUAGE:CXX>:${lua_COMPILE_OPTIONS_CXX_RELEASE}>"
+    "$<$<COMPILE_LANGUAGE:C>:${lua_COMPILE_OPTIONS_C_RELEASE}>")
+set(lua_LINKER_FLAGS_RELEASE
+    "$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,SHARED_LIBRARY>:${lua_SHARED_LINK_FLAGS_RELEASE}>"
+    "$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,MODULE_LIBRARY>:${lua_SHARED_LINK_FLAGS_RELEASE}>"
+    "$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,EXECUTABLE>:${lua_EXE_LINK_FLAGS_RELEASE}>")
+
+
+set(lua_COMPONENTS_RELEASE )
